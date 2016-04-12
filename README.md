@@ -1,6 +1,4 @@
-# ANTs
-
-##ANTs - Automatic Negative Thoughts.
+# Automatic Negative Thoughts (ANTs) 
 
 ###About the Project
 This is an introduction to what the 9 types of Automatic Negative Thoughts are and how to deal with them.
