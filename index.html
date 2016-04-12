@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app="antsApp">
+  <head>
+    <meta charset="utf-8">
+
+    <title>ANTs Home</title>
+  </head>
+  <body ng-controller="mainController as main">
+    <div class="" ng-repeat="type in types">
+      <div class="">
+        {{type.name}}
+      </div>
+      <p>
+        {{type.description}}
+      </p>
+    </div>
+
+
+    <script src="https://code.angularjs.org/1.4.3/angular.min.js"></script>
+
+    <script src="app/app.js"></script>
+    <script src="app/ants-factory.js"></script>
+  </body>
+</html>
