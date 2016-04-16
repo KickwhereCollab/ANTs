@@ -4,21 +4,17 @@
     <meta charset="utf-8">
 
     <title>ANTs Home</title>
+    <script src="https://code.angularjs.org/1.4.3/angular.min.js"></script>
+    <script src="app/app.js"></script>
+    <script src="app/ants-factory.js"></script>
+    <script src="app/ant-info/ant-info-dir.js"></script>
   </head>
   <body ng-controller="mainController as main">
     <div class="" ng-repeat="type in types">
-      <div class="">
-        {{type.name}}
-      </div>
-      <p>
-        {{type.description}}
-      </p>
+      <img ng-src="asset/img/{{type.color}}-ant.png" style="width:60px; height:60px" ng-cloak />
+      <ant-info></ant-info>
     </div>
 
 
-    <script src="https://code.angularjs.org/1.4.3/angular.min.js"></script>
-
-    <script src="app/app.js"></script>
-    <script src="app/ants-factory.js"></script>
   </body>
 </html>
