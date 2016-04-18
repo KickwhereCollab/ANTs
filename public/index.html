@@ -5,14 +5,14 @@
 
     <title>ANTs Home</title>
     <script src="https://code.angularjs.org/1.4.3/angular.min.js"></script>
-    <script src="app/app.js"></script>
-    <script src="app/ants-factory.js"></script>
-    <script src="app/ant-info/ant-info-dir.js"></script>
+    <script type="text/javascript" src="app/app.js"></script>
+    <script type="text/javascript" src="app/ants-factory.js"></script>
+    <script type="text/javascript" src="app/ant-info/ant-info-dir.js"></script>
   </head>
   <body ng-controller="mainController as main">
     <div class="" ng-repeat="type in types">
       <img ng-src="asset/img/{{type.color}}-ant.png" style="width:60px; height:60px" ng-cloak />
-      <ant-info></ant-info>
+      <ant-info info="type"></ant-info>
     </div>
 
 
