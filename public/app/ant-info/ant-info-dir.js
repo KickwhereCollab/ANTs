@@ -5,8 +5,6 @@ app.directive('antInfo', function() {
     scope: {
       antInfo: '=info'
     },
-    // templateUrl: 'ant-info.html'
-    template:
-      'Ant: {{antInfo.name}} About: {{antInfo.description}}'
+    templateUrl: 'app/ant-info/ant-info.html'
   };
 });
